@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8F31B87FBE06A1B556F388 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2060CF30F4C0326D87AE05C9 /* libPods.a */; };
+		C3515B2B1C0F2E0C00676F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3515B2A1C0F2E0C00676F16 /* main.m */; };
+		C3515B2E1C0F2E0C00676F16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3515B2D1C0F2E0C00676F16 /* AppDelegate.m */; };
+		C3515B341C0F2E0C00676F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3515B321C0F2E0C00676F16 /* Main.storyboard */; };
+		C3515B361C0F2E0C00676F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3515B351C0F2E0C00676F16 /* Assets.xcassets */; };
+		C3515B391C0F2E0C00676F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3515B371C0F2E0C00676F16 /* LaunchScreen.storyboard */; };
+		C3515B4B1C0F31AA00676F16 /* ArticlesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3515B4A1C0F31AA00676F16 /* ArticlesListViewController.m */; };
+		C3515B4E1C0F379D00676F16 /* GetArticlesStub.json in Resources */ = {isa = PBXBuildFile; fileRef = C3515B4D1C0F379D00676F16 /* GetArticlesStub.json */; };
+		C3515B531C0F380200676F16 /* ArticleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3515B511C0F380200676F16 /* ArticleTableViewCell.m */; };
+		C3515B541C0F380200676F16 /* ArticleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3515B521C0F380200676F16 /* ArticleTableViewCell.xib */; };
+		C3515B581C0F382700676F16 /* YalantisAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3515B571C0F382700676F16 /* YalantisAPIManager.m */; };
+		C3515B5D1C0F3ADA00676F16 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = C3515B5C1C0F3ADA00676F16 /* Article.m */; };
+		C3515B611C0F3C0900676F16 /* NSDictionary+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = C3515B601C0F3C0900676F16 /* NSDictionary+Validation.m */; };
+		C3515B7B1C0F6F2100676F16 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = C3515B701C0F6F2100676F16 /* LICENSE.txt */; };
+		C3515B7C1C0F6F2100676F16 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B711C0F6F2100676F16 /* OpenSans-Bold.ttf */; };
+		C3515B7D1C0F6F2100676F16 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B721C0F6F2100676F16 /* OpenSans-BoldItalic.ttf */; };
+		C3515B7E1C0F6F2100676F16 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B731C0F6F2100676F16 /* OpenSans-ExtraBold.ttf */; };
+		C3515B7F1C0F6F2100676F16 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B741C0F6F2100676F16 /* OpenSans-ExtraBoldItalic.ttf */; };
+		C3515B801C0F6F2100676F16 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B751C0F6F2100676F16 /* OpenSans-Italic.ttf */; };
+		C3515B811C0F6F2100676F16 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B761C0F6F2100676F16 /* OpenSans-Light.ttf */; };
+		C3515B821C0F6F2100676F16 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B771C0F6F2100676F16 /* OpenSans-LightItalic.ttf */; };
+		C3515B831C0F6F2100676F16 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B781C0F6F2100676F16 /* OpenSans-Regular.ttf */; };
+		C3515B841C0F6F2100676F16 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B791C0F6F2100676F16 /* OpenSans-Semibold.ttf */; };
+		C3515B851C0F6F2100676F16 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3515B7A1C0F6F2100676F16 /* OpenSans-SemiboldItalic.ttf */; };
+		C3515B8A1C0F753100676F16 /* ArticleDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3515B881C0F753100676F16 /* ArticleDetailsViewController.m */; };
+		C3515B8B1C0F753100676F16 /* ArticleDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3515B891C0F753100676F16 /* ArticleDetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F8DE1A32A385749FB511477 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		2060CF30F4C0326D87AE05C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B1CC5F79422556DABEBA42 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C3515B261C0F2E0C00676F16 /* YalantisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YalantisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3515B2A1C0F2E0C00676F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3515B2C1C0F2E0C00676F16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3515B2D1C0F2E0C00676F16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3515B331C0F2E0C00676F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3515B351C0F2E0C00676F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3515B381C0F2E0C00676F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3515B3A1C0F2E0C00676F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3515B491C0F31AA00676F16 /* ArticlesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticlesListViewController.h; sourceTree = "<group>"; };
+		C3515B4A1C0F31AA00676F16 /* ArticlesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticlesListViewController.m; sourceTree = "<group>"; };
+		C3515B4D1C0F379D00676F16 /* GetArticlesStub.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GetArticlesStub.json; sourceTree = "<group>"; };
+		C3515B501C0F380200676F16 /* ArticleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleTableViewCell.h; sourceTree = "<group>"; };
+		C3515B511C0F380200676F16 /* ArticleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleTableViewCell.m; sourceTree = "<group>"; };
+		C3515B521C0F380200676F16 /* ArticleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleTableViewCell.xib; sourceTree = "<group>"; };
+		C3515B561C0F382700676F16 /* YalantisAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YalantisAPIManager.h; sourceTree = "<group>"; };
+		C3515B571C0F382700676F16 /* YalantisAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YalantisAPIManager.m; sourceTree = "<group>"; };
+		C3515B5B1C0F3ADA00676F16 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
+		C3515B5C1C0F3ADA00676F16 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
+		C3515B5F1C0F3C0900676F16 /* NSDictionary+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Validation.h"; sourceTree = "<group>"; };
+		C3515B601C0F3C0900676F16 /* NSDictionary+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Validation.m"; sourceTree = "<group>"; };
+		C3515B701C0F6F2100676F16 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		C3515B711C0F6F2100676F16 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		C3515B721C0F6F2100676F16 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C3515B731C0F6F2100676F16 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		C3515B741C0F6F2100676F16 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C3515B751C0F6F2100676F16 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		C3515B761C0F6F2100676F16 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		C3515B771C0F6F2100676F16 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		C3515B781C0F6F2100676F16 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		C3515B791C0F6F2100676F16 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		C3515B7A1C0F6F2100676F16 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		C3515B871C0F753100676F16 /* ArticleDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleDetailsViewController.h; sourceTree = "<group>"; };
+		C3515B881C0F753100676F16 /* ArticleDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleDetailsViewController.m; sourceTree = "<group>"; };
+		C3515B891C0F753100676F16 /* ArticleDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArticleDetailsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3515B231C0F2E0C00676F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8F31B87FBE06A1B556F388 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3515B1D1C0F2E0C00676F16 = {
+			isa = PBXGroup;
+			children = (
+				C3515B281C0F2E0C00676F16 /* YalantisApp */,
+				C3515B271C0F2E0C00676F16 /* Products */,
+				DBE29AFE5CE523F7B16074D1 /* Pods */,
+				C636068EDF987898E9C5CB1C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C3515B271C0F2E0C00676F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B261C0F2E0C00676F16 /* YalantisApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3515B281C0F2E0C00676F16 /* YalantisApp */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B5E1C0F3BF800676F16 /* Categories */,
+				C3515B591C0F3ACE00676F16 /* Models */,
+				C3515B551C0F380B00676F16 /* Managers */,
+				C3515B401C0F30C600676F16 /* UI */,
+				C3515B4C1C0F377000676F16 /* Resources */,
+				C3515B2C1C0F2E0C00676F16 /* AppDelegate.h */,
+				C3515B2D1C0F2E0C00676F16 /* AppDelegate.m */,
+				C3515B321C0F2E0C00676F16 /* Main.storyboard */,
+				C3515B351C0F2E0C00676F16 /* Assets.xcassets */,
+				C3515B371C0F2E0C00676F16 /* LaunchScreen.storyboard */,
+				C3515B3A1C0F2E0C00676F16 /* Info.plist */,
+				C3515B291C0F2E0C00676F16 /* Supporting Files */,
+			);
+			path = YalantisApp;
+			sourceTree = "<group>";
+		};
+		C3515B291C0F2E0C00676F16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B2A1C0F2E0C00676F16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3515B401C0F30C600676F16 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B411C0F30C600676F16 /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C3515B411C0F30C600676F16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B481C0F319400676F16 /* ArticlesListViewController */,
+				C3515B861C0F750C00676F16 /* ArticleDetailsViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C3515B481C0F319400676F16 /* ArticlesListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B4F1C0F380200676F16 /* Cells */,
+				C3515B491C0F31AA00676F16 /* ArticlesListViewController.h */,
+				C3515B4A1C0F31AA00676F16 /* ArticlesListViewController.m */,
+			);
+			path = ArticlesListViewController;
+			sourceTree = "<group>";
+		};
+		C3515B4C1C0F377000676F16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B641C0F6F1200676F16 /* Fonts */,
+				C3515B4D1C0F379D00676F16 /* GetArticlesStub.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3515B4F1C0F380200676F16 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B501C0F380200676F16 /* ArticleTableViewCell.h */,
+				C3515B511C0F380200676F16 /* ArticleTableViewCell.m */,
+				C3515B521C0F380200676F16 /* ArticleTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C3515B551C0F380B00676F16 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B561C0F382700676F16 /* YalantisAPIManager.h */,
+				C3515B571C0F382700676F16 /* YalantisAPIManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C3515B591C0F3ACE00676F16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B5A1C0F3ACE00676F16 /* Article */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C3515B5A1C0F3ACE00676F16 /* Article */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B5B1C0F3ADA00676F16 /* Article.h */,
+				C3515B5C1C0F3ADA00676F16 /* Article.m */,
+			);
+			path = Article;
+			sourceTree = "<group>";
+		};
+		C3515B5E1C0F3BF800676F16 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B5F1C0F3C0900676F16 /* NSDictionary+Validation.h */,
+				C3515B601C0F3C0900676F16 /* NSDictionary+Validation.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		C3515B641C0F6F1200676F16 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B6F1C0F6F2100676F16 /* open-sans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C3515B6F1C0F6F2100676F16 /* open-sans */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B701C0F6F2100676F16 /* LICENSE.txt */,
+				C3515B711C0F6F2100676F16 /* OpenSans-Bold.ttf */,
+				C3515B721C0F6F2100676F16 /* OpenSans-BoldItalic.ttf */,
+				C3515B731C0F6F2100676F16 /* OpenSans-ExtraBold.ttf */,
+				C3515B741C0F6F2100676F16 /* OpenSans-ExtraBoldItalic.ttf */,
+				C3515B751C0F6F2100676F16 /* OpenSans-Italic.ttf */,
+				C3515B761C0F6F2100676F16 /* OpenSans-Light.ttf */,
+				C3515B771C0F6F2100676F16 /* OpenSans-LightItalic.ttf */,
+				C3515B781C0F6F2100676F16 /* OpenSans-Regular.ttf */,
+				C3515B791C0F6F2100676F16 /* OpenSans-Semibold.ttf */,
+				C3515B7A1C0F6F2100676F16 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = "open-sans";
+			sourceTree = "<group>";
+		};
+		C3515B861C0F750C00676F16 /* ArticleDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C3515B871C0F753100676F16 /* ArticleDetailsViewController.h */,
+				C3515B881C0F753100676F16 /* ArticleDetailsViewController.m */,
+				C3515B891C0F753100676F16 /* ArticleDetailsViewController.xib */,
+			);
+			path = ArticleDetailsViewController;
+			sourceTree = "<group>";
+		};
+		C636068EDF987898E9C5CB1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2060CF30F4C0326D87AE05C9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBE29AFE5CE523F7B16074D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83B1CC5F79422556DABEBA42 /* Pods.debug.xcconfig */,
+				0F8DE1A32A385749FB511477 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3515B251C0F2E0C00676F16 /* YalantisApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3515B3D1C0F2E0C00676F16 /* Build configuration list for PBXNativeTarget "YalantisApp" */;
+			buildPhases = (
+				DE2A61981C5B5EAF0E555CEC /* Check Pods Manifest.lock */,
+				C3515B221C0F2E0C00676F16 /* Sources */,
+				C3515B231C0F2E0C00676F16 /* Frameworks */,
+				C3515B241C0F2E0C00676F16 /* Resources */,
+				A8B867AEE53FCE598E7660BC /* Copy Pods Resources */,
+				13C5B4C4726E6EBD80893DFA /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YalantisApp;
+			productName = YalantisApp;
+			productReference = C3515B261C0F2E0C00676F16 /* YalantisApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3515B1E1C0F2E0C00676F16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = MN;
+				TargetAttributes = {
+					C3515B251C0F2E0C00676F16 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C3515B211C0F2E0C00676F16 /* Build configuration list for PBXProject "YalantisApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3515B1D1C0F2E0C00676F16;
+			productRefGroup = C3515B271C0F2E0C00676F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3515B251C0F2E0C00676F16 /* YalantisApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3515B241C0F2E0C00676F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3515B851C0F6F2100676F16 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				C3515B7B1C0F6F2100676F16 /* LICENSE.txt in Resources */,
+				C3515B801C0F6F2100676F16 /* OpenSans-Italic.ttf in Resources */,
+				C3515B7C1C0F6F2100676F16 /* OpenSans-Bold.ttf in Resources */,
+				C3515B7E1C0F6F2100676F16 /* OpenSans-ExtraBold.ttf in Resources */,
+				C3515B8B1C0F753100676F16 /* ArticleDetailsViewController.xib in Resources */,
+				C3515B541C0F380200676F16 /* ArticleTableViewCell.xib in Resources */,
+				C3515B391C0F2E0C00676F16 /* LaunchScreen.storyboard in Resources */,
+				C3515B811C0F6F2100676F16 /* OpenSans-Light.ttf in Resources */,
+				C3515B4E1C0F379D00676F16 /* GetArticlesStub.json in Resources */,
+				C3515B361C0F2E0C00676F16 /* Assets.xcassets in Resources */,
+				C3515B841C0F6F2100676F16 /* OpenSans-Semibold.ttf in Resources */,
+				C3515B7F1C0F6F2100676F16 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				C3515B831C0F6F2100676F16 /* OpenSans-Regular.ttf in Resources */,
+				C3515B7D1C0F6F2100676F16 /* OpenSans-BoldItalic.ttf in Resources */,
+				C3515B821C0F6F2100676F16 /* OpenSans-LightItalic.ttf in Resources */,
+				C3515B341C0F2E0C00676F16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13C5B4C4726E6EBD80893DFA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8B867AEE53FCE598E7660BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE2A61981C5B5EAF0E555CEC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3515B221C0F2E0C00676F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3515B581C0F382700676F16 /* YalantisAPIManager.m in Sources */,
+				C3515B531C0F380200676F16 /* ArticleTableViewCell.m in Sources */,
+				C3515B8A1C0F753100676F16 /* ArticleDetailsViewController.m in Sources */,
+				C3515B5D1C0F3ADA00676F16 /* Article.m in Sources */,
+				C3515B2E1C0F2E0C00676F16 /* AppDelegate.m in Sources */,
+				C3515B611C0F3C0900676F16 /* NSDictionary+Validation.m in Sources */,
+				C3515B4B1C0F31AA00676F16 /* ArticlesListViewController.m in Sources */,
+				C3515B2B1C0F2E0C00676F16 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3515B321C0F2E0C00676F16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3515B331C0F2E0C00676F16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3515B371C0F2E0C00676F16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3515B381C0F2E0C00676F16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3515B3B1C0F2E0C00676F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3515B3C1C0F2E0C00676F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3515B3E1C0F2E0C00676F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B1CC5F79422556DABEBA42 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YalantisApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MN.YalantisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3515B3F1C0F2E0C00676F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8DE1A32A385749FB511477 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YalantisApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MN.YalantisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3515B211C0F2E0C00676F16 /* Build configuration list for PBXProject "YalantisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3515B3B1C0F2E0C00676F16 /* Debug */,
+				C3515B3C1C0F2E0C00676F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3515B3D1C0F2E0C00676F16 /* Build configuration list for PBXNativeTarget "YalantisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3515B3E1C0F2E0C00676F16 /* Debug */,
+				C3515B3F1C0F2E0C00676F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3515B1E1C0F2E0C00676F16 /* Project object */;
+}

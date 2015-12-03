@@ -1,0 +1,45 @@
+{"articles":[{
+             "title":"Building Instagram for Voice and Video with Sound Effects: the Halaa App for Android Case Study",
+             "descriptionText":"From pictures to videos to our thoughts – we share everything on social networks. We have Instagram for photos, Vine for videos, and Twitter for short texts and links. If you ever thought about...",
+             "authorName":"Roman",
+             "authorSurname": "Kozlov",
+             "viewsCount": 111,
+             "categoryTitle": "TECHNOLOGY",
+             "categoryId": 1,
+             "imageURL": "https://yalantis.com/media/CACHE/images/image/post/building-instagram-for-voice-and-video-with-sound/head_image/633e0085d7087d638339d2772beaae02.jpg",
+             "articleURL": "https://yalantis.com/blog/building-instagram-for-voice-and-video-with-sound-effects-the-halaa-app-for-android-case-study/"
+             },
+             {
+             "title":"How Do You Integrate Apple Pay Using Stripe For Your Shopping App?",
+             "descriptionText":"We’ve been talking about shopping apps a lot recently, but somehow we haven’t yet touched upon payment possibilities for this type of apps. In this article, we’re going to fix this. Grab your iPhone...",
+             "authorName":"Roman",
+             "authorSurname": "Sherbakov",
+             "viewsCount": 248,
+             "categoryTitle": "PROGRAMMING",
+             "categoryId": 2,
+             "imageURL": "https://yalantis.com/media/CACHE/images/image/post/how-do-you-integrate-apple-pay-using-stripe-for-yo/head_image/34b83cff6fe9eba6e4e9d55c1c361b9b.jpg",
+             "articleURL": "https://yalantis.com/blog/how-do-you-integrate-apple-pay-using-stripe-for-your-shopping-app/"
+             },
+             {
+             "title":"How Much Does It Cost to Develop a Messaging App Like WhatsApp?",
+             "descriptionText":"Messaging is one of the most essential functions that smartphone users want to have at hand. People are constantly looking for what new messaging apps have to offer them. The mobile app industry...",
+             "authorName":"Iryna",
+             "authorSurname": "Pototska",
+             "viewsCount": 495,
+             "categoryTitle": "TECHNOLOGY",
+             "categoryId": 1,
+             "imageURL": "https://yalantis.com/media/CACHE/images/image/post/cost-of-mobile-messaging-app-development-types-k/head_image/cb177f864ebd4598632dada4107def13.jpg",
+             "articleURL": "https://yalantis.com/blog/cost-of-mobile-messaging-app-development-types-kpis-landscape-recommended-approach-and-cost-of-development/"
+             },
+             {
+             "title":"Building a Customizable Constructor for Designers of Android Wear Watch Face Apps",
+             "descriptionText":"Gone are the days when watches were devices to check out the time. Now people use smart watches for doing a handful of things from reading texts to keeping up to date with exchange rates – all on a...",
+             "authorName":"Andriy",
+             "authorSurname": "Hristyan",
+             "viewsCount": 756,
+             "categoryTitle": "PROGRAMMING",
+             "categoryId": 2,
+             "imageURL": "https://yalantis.com/media/CACHE/images/image/post/building-a-customizable-constructor-for-designers/head_image/25800c95db02d3b83e00abc5f78a82ec.jpg",
+             "articleURL": "https://yalantis.com/blog/building-a-customizable-constructor-for-designers-of-android-wear-watch-face-apps/"
+             }
+             ]}
